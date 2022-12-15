@@ -42,14 +42,11 @@ $blu = config('comics.bluband');
 @endsection
 
 @section('bluband')
-<div class="bluband">
+<div class="icons">
    @foreach ($blu as $item)
-   <div class="container">
-      <div>
-         <img src="{{Vite::asset('resources/img/'.$item['icon']) }}" alt="">
+   <div class="container icon">
+         <img class="img-icon" src="{{Vite::asset('resources/img/'.$item['icon']) }}" alt="">
          <p>{{$item['text']}}</p>
-         
-      </div>
    </div>
        
    @endforeach
@@ -61,15 +58,3 @@ $blu = config('comics.bluband');
 
 
 
-<style scoped lang="scss">
-
-  
-
-
-
-
-
-
-
-
-</style>

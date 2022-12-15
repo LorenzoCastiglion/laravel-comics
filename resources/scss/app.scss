@@ -102,12 +102,35 @@ li{
 
 
     // blu band
-    .bluband{
-        background-color:  #2B7CEC;
-        
-        p{
-            text-transform: uppercase;
-            color: white;
+    .icons {
+        background-color: #2B7CEC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .img-icon {
+                width: 40px;
+                margin: 0 10px;
+            }
+    
+    
+    
+            p {
+                margin-bottom: 0;
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
         }
-        
-     }
+    
+        .icon:nth-child(4) .img-icon {
+            width: 25px;
+        }
+    }
