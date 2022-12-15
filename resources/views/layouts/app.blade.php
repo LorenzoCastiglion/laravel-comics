@@ -20,7 +20,8 @@
  @include('partials.header')
 
  <main>
-    @yield('content')
+    @yield('jumbo')
+    @yield('section-1')
  </main>
 
  @include('partials.footer')

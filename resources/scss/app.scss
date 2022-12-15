@@ -1,1 +1,34 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+// header
+
+
+
+
+a{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+a.active{
+    font-weight: bold;
+}
+
+li{
+    font-size: 12px;
+    list-style: none;
+    margin: 0, 5px;
+}
+
+.jumbotron{
+    overflow: hidden;
+    height: 40vh;
+    object-position: center;
+
+    img{
+        width: 100%;
+    }
+}
