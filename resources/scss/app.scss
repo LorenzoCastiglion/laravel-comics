@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 // header
 
 .upper-blu{
@@ -168,5 +172,113 @@ main{
     
         .icon:nth-child(4) .img-icon {
             width: 25px;
+        }
+    }
+
+
+    // footer
+
+    footer {
+
+        height: 300px;
+    }
+    
+    .footer-bg-top {
+    
+        height: 100%;
+        background-image: url(../img/footer-bg.jpg);
+    }
+    
+    #bg-logo {
+        height: 400px;
+    }
+    
+    .footer-bg-btm {
+        height: 80px;
+        background-color: rgb(55, 54, 54);
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .top {
+        height: 300px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    
+    }
+    
+    .lista {
+        
+        gap: 30px;
+        display: flex;
+        flex-flow: row wrap;
+    
+        ul {
+            list-style: none;
+        }
+    
+        a {
+            font-size: 12px;
+            color: grey;
+            text-decoration: none;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    h3 {
+        font-size: 16px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    li {
+        color: grey;
+    }
+    
+    button {
+    
+        &:hover {
+            filter: grayscale(1);
+        }
+    
+    
+        font-size: 20px;
+        border: 2px solid #2B7CEC;
+        background-color: transparent;
+        color: white;
+        padding: 10px;
+    }
+    
+    
+    // seconda
+    
+    .foot-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    
+        a {
+    
+            &:hover {
+                filter: brightness(0) invert(1);
+            }
+    
+            padding: 0 5px;
+        }
+    
+        h2 {
+            font-size: 20px;
+            color: #2B7CEC;
+            padding-right: 5px;
         }
     }
