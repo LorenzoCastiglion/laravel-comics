@@ -208,25 +208,39 @@ main{
         justify-content: space-between;
         align-items: center;
         align-content: center;
-    
-    }
-    
-    .lista {
         
-        gap: 30px;
-        display: flex;
-        flex-flow: row wrap;
-    
-        ul {
-            list-style: none;
+        
+        .lista {
+        
+            gap: 30px;
+            display: flex;
+            flex-flow: row wrap;
+        
+            ul {
+                list-style: none;
+            }
+        
+            a {
+                font-size: 10px;
+                color: grey;
+                text-decoration: none;
+            }
         }
     
-        a {
-            font-size: 12px;
-            color: grey;
-            text-decoration: none;
-        }
     }
+
+    .shop{
+        padding: 0;
+    }
+
+    .under-shop{
+        left: 3%;
+        top: -57px;
+        color: grey;
+        font-size: 8px;
+    }
+    
+    
     
     
     
@@ -234,20 +248,22 @@ main{
     
     
     h3 {
-        font-size: 16px;
+        font-size: 14px;
         color: white;
         text-transform: uppercase;
         font-weight: bold;
     }
     
     li {
+        line-height: 1rem;
         color: grey;
     }
     
     button {
     
         &:hover {
-            filter: grayscale(1);
+            background-color: black;
+            
         }
     
     
