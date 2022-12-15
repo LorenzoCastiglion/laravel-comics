@@ -18,7 +18,8 @@ $links = config('comics.navbar');
         <nav>
             <ul class="ul-header d-flex flex-grow">
                 @foreach ($links as $link)
-                <li class="{{Route::currentRouteName() == $link['url'] ? 'active' : ''}}"><a :href="{{$link['url']}}">{{$link['text']}}</a>
+                <li class="{{Route::currentRouteName() == $link['url'] ? 'active' : ''}}">
+                    <a href="{{$link['url']}}">{{$link['text']}}</a>
                 </li>
                 @endforeach
             </ul>

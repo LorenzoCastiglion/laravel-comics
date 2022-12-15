@@ -219,7 +219,7 @@ return [
 'navbar' => [ 
     [
     "text"=> "Characters",
-    "url"=> "comics",
+    "url"=> "characters",
     "active"=> false,
 ],
 [
@@ -229,42 +229,42 @@ return [
 ],
 [
     "text"=> "Movies",
-    "url"=> "comics",
+    "url"=> "movies",
     "active"=> false,
 ],
 [
     "text"=> "TV",
-    "url"=> "comics",
+    "url"=> "tv",
     "active"=> false,
 ],
 [
     "text"=> "Games",
-    "url"=> "comics",
+    "url"=> "games",
     "active"=> false,
 ],
 [
     "text"=> "Collectibles",
-    "url"=> "comics",
+    "url"=> "collectibles",
     "active"=> false,
 ],
 [
     "text"=> "Videos",
-    "url"=> "comics",
+    "url"=> "videos",
     "active"=> false,
 ],
 [
     "text"=> "Fans",
-    "url"=> "comics",
+    "url"=> "fans",
     "active"=> false,
 ],
 [
     "text"=> "News",
-    "url"=> "comics",
+    "url"=> "news",
     "active"=> false,
 ],
 [
     "text"=> "Shop",
-    "url"=> "comics",
+    "url"=> "shops",
     "active"=> false,
 ]
 ],
