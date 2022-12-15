@@ -9,16 +9,22 @@
 
 // header
 
-main{
-    background-color: black;
-}
+.upper-blu{
+    background-color: #2B7CEC;
 
+    p{
+        text-transform: uppercase;
+        color: white;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+}
 
 a{
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: normal;
-    margin-right: 10px;
+    
 }
 
 a.active{
@@ -26,10 +32,21 @@ a.active{
 }
 
 li{
-    font-size: 12px;
+    font-size: 16px;
     list-style: none;
-    margin: 0, 5px;
+    margin: 0 18px;
 }
+
+
+// main
+
+
+main{
+    background-color: black;
+}
+
+
+
 
 .jumbotron{
     overflow: hidden;
@@ -96,6 +113,7 @@ li{
     
         &:hover {
             filter: invert(1);
+            color: black;
         }
     
     }
