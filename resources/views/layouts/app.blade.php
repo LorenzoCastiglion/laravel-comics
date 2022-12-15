@@ -22,6 +22,7 @@
  <main>
     @yield('jumbo')
     @yield('section-1')
+    @yield('bluband')
  </main>
 
  @include('partials.footer')

@@ -1,9 +1,17 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 // header
 
-
+main{
+    background-color: black;
+}
 
 
 a{
@@ -32,3 +40,74 @@ li{
         width: 100%;
     }
 }
+
+
+// carte comics
+
+.current {
+    position: absolute;
+    text-transform: uppercase;
+    top: -10px;
+
+    span {
+        padding: 10px;
+        color: white;
+        background-color: #2B7CEC;
+        font-size: 24px;
+        font-weight: bold;
+
+    }
+
+}
+
+
+
+
+.carta {
+    
+    margin-top: 50px;
+    width: calc(100% / 6);
+    
+    .img-wrap {
+    height: 200px;
+    overflow-y: hidden;
+    }
+
+    .didascalia{
+        color: white;
+        margin-bottom: 0;
+        margin-top: 20px;
+     }
+    }
+
+
+    .load-container {
+        text-align: center;
+        padding: 25px 0;
+    }
+    
+    .load {
+        text-transform: uppercase;
+        color: white;
+        background-color: #2B7CEC;
+        padding: 10px 20px;
+        text-decoration: none;
+    
+    
+        &:hover {
+            filter: invert(1);
+        }
+    
+    }
+
+
+    // blu band
+    .bluband{
+        background-color:  #2B7CEC;
+        
+        p{
+            text-transform: uppercase;
+            color: white;
+        }
+        
+     }
