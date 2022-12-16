@@ -17,7 +17,7 @@
 
 <body>
 
- @include('partials.header')
+ <header>@include('partials.header')</header>
 
  <main>
     @yield('jumbo')
@@ -25,7 +25,7 @@
     @yield('bluband')
  </main>
 
- @include('partials.footer')
+ <footer>@include('partials.footer')</footer>
 
 </body>
 
